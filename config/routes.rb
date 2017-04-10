@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'posts/index'
-  get 'posts/new'
-  post 'posts' => 'posts#create'
+  # get 'posts/index'
+  # get 'posts/new'
+  # post 'posts' => 'posts#create'
 
-
+  resources 'posts'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
